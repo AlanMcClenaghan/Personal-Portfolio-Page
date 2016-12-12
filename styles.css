@@ -2,7 +2,6 @@
 * { 
   box-sizing: border-box;
 }
-  
 body {
   margin: 0;
   padding: 0;
@@ -11,8 +10,8 @@ body {
   color: #222;
   background: #f7f5f0;
 }
-/* Link Styles */
 
+/* Link Styles */
 a {
   text-decoration: none;
   color: #999;
@@ -69,8 +68,8 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border: 2px solid lightgreen;
+  transition: all 1s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
